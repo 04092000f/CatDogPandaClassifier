@@ -5,6 +5,7 @@ In this project, we have implemented a <code>3-class</code> <b>Image Classifier<
 
 ## This Project had Two-folded Purpose:
 <ul>
-<li>The first is to get our hands dirty. training a neural network from scratch. Only then we will understand how to build and train a real network on real data. we will implement everything this time - right from getting the data to analysing the final results.</li>
-<li>The second is to reinforce the use of the complete training pipeline that had been suggested suggested OpenCV University. we try to stick to this pipeline every time when we work on a new problem.</li>
+<li>Building and training a neural network from scratch in order to understand how to build and train a real network on real data. everything had been implemented this time - right from getting the data to analysing the final results.</li>
+<li>Reinforce the use of the complete training pipeline</li>
 </ul>
+
