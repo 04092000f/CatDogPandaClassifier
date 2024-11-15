@@ -151,3 +151,17 @@ The model architecture is a deep convolutional neural network with:
 2. **MaxPooling Layers**: To reduce the spatial dimensions.
 3. **Dropout Layers**: For regularization to avoid overfitting.
 4. **Fully Connected Layers**: For classification, with ReLU activations and dropout for regularization.
+
+
+## Final Results
+
+### Accuracy
+![Accuracy](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/final_result.png)
+
+From the plots, it can be observed that final <b>validation accuracy</b> is <code>0.9133</code> i.e. <code>91.33%</code>. It means that model is generalizing well on <b>validation data</b> and target <b>validation accuracy</b> of <code>85%</code> is achieved while using the current model architecture.
+
+### Confusion Matrix
+![Confusion Matrix](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/confusion_matrix.png)
+
+### Inference
+![Inference](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/sample_predictions.png)
