@@ -21,7 +21,7 @@ Refer these two notebooks:
 <li>any image transforms.</li>
 <li>plotting of curves.</li>
 </ul>
-
+<br>
 <li><a href="https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/Training_from_scratch.ipynb">Training_from_scratch.ipynb</a></li>
 
 <b>Final notebook</b>. We have trained a network on the full data. Experiment with different network parameters to achieve >85% validation accuracy. We might not get 85% on the first attempt. To achieve that, we have experimented with:
