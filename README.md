@@ -1,7 +1,7 @@
 # <img src = "https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png">
 # Implement a CNN-Based Image Classifier
 
-In this project, we have implemented a <code>3-class</code> <b>Image Classifier</b>, using a <b>CNN</b>, on a dataset, which consists of <code>1000</code> images each of <b>panda, cat and dog</b>. We took the dataset from <a href="https://www.kaggle.com/ashishsaxena2209/animal-image-datasetdog-cat-and-panda">Kaggle</a>, and split it into <code>80:20</code> ratio for <code>train:validation</code>. To download, <a href="https://www.dropbox.com/sh/n5nya3g3airlub6/AACi7vaUjdTA0t2j_iKWgp4Ra?dl=1">click here</a>. Targetted accuracy on <b>validation data</b> was greater than or equal to <code>85%</code>.
+In this project, I have implemented a <code>3-class</code> <b>Image Classifier</b>, using a <b>CNN</b>, on a dataset, which consists of <code>1000</code> images each of <b>panda, cat and dog</b>. I took the dataset from <a href="https://www.kaggle.com/ashishsaxena2209/animal-image-datasetdog-cat-and-panda">Kaggle</a>, and split it into <code>80:20</code> ratio for <code>train:validation</code>. To download, <a href="https://www.dropbox.com/sh/n5nya3g3airlub6/AACi7vaUjdTA0t2j_iKWgp4Ra?dl=1">click here</a>. Targetted accuracy on <b>validation data</b> was greater than or equal to <code>85%</code>.
  
 ## This Project had Two-folded Purpose:
 <ul>
@@ -24,7 +24,7 @@ Refer these two notebooks:
 <br>
 <li><a href="https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/Training_from_scratch.ipynb">Training_from_scratch.ipynb</a></li>
 
-<b>Final notebook</b>. We have trained a network on the full data. Experiment with different network parameters to achieve >85% validation accuracy. We might not get 85% on the first attempt. To achieve that, we have experimented with:
+<b>Final notebook</b>. I have trained a network on the full data. Experiment with different network parameters to achieve >85% validation accuracy. I might not get 85% on the first attempt. To achieve that, I have experimented with:
 <ul>
 <li>Number of layers</li>
 <li>Parameters inside the layers</li>
@@ -158,7 +158,7 @@ The model architecture is a deep convolutional neural network with:
 ### Accuracy
 ![Accuracy](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/final_result.png)
 
-From the plots, it can be observed that final <b>validation accuracy</b> is <code>0.9133</code> i.e. <code>91.33%</code>. It means that model is generalizing well on <b>validation data</b> and target <b>validation accuracy</b> of <code>85%</code> is achieved while using the current model architecture.<br>
+From the plots, it can be observed that final <b>validation accuracy</b> is <code>0.9133</code> i.e. <code>91.33%</code>. It means that model is generalizing Ill on <b>validation data</b> and target <b>validation accuracy</b> of <code>85%</code> is achieved while using the current model architecture.<br>
 
 <br>
 
