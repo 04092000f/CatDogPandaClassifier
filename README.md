@@ -24,11 +24,11 @@ Refer these two notebooks:
 <br>
 <li><a href="https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/Training_from_scratch.ipynb">Training_from_scratch.ipynb</a></li>
 
-<b>Final notebook</b>. I have trained a network on the full data. Experiment with different network parameters to achieve >85% validation accuracy. I might not get 85% on the first attempt. To achieve that, I have experimented with:
+<b>Final notebook</b>. I have trained a network on the full data. I have Experimented with different network parameters to achieve >85% validation accuracy. It might not be possible get 85% on the first attempt. To achieve that, I have experimented with:
 <ul>
 <li>Number of layers</li>
 <li>Parameters inside the layers</li>
-<li>Optimizers and learning rate schedulers [You can even get good results without a learning rate scheduler]</li>
+<li>Optimizers and learning rate schedulers [Can even get good results without a learning rate scheduler]</li>
 <li>Regularization techniques like Data augmentation, Dropout, BatchNorm</li>
 <li>Number of epochs</li>
 </ul>
