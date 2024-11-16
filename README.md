@@ -3,12 +3,13 @@
 ![OpenCV Logo](https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png)
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Purpose](#purpose)
-3. [Dataset](#dataset)
-4. [Model Architecture](#model-architecture)
-5. [Training Pipeline](#training-pipeline)
-6. [Results and Performance Metrics](#results-and-performance-metrics)
+1. [Introduction](#1-introduction)
+2. [Purpose](#2-purpose)
+3. [Dataset](#3-dataset)
+4. [Model Architecture](#4-model-architecture)
+5. [Training Pipeline](#5-training-pipeline)
+6. [Results and Performance Metrics](#6-results-and-performance-metrics)
+
 
 ---
 
