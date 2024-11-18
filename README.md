@@ -1,6 +1,5 @@
 # CNN-Based Image Classifier: Panda, Cat, and Dog
 
----
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
