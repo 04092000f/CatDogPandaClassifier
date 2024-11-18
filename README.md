@@ -1,6 +1,6 @@
 # CNN-Based Image Classifier: Panda, Cat, and Dog
 
-![OpenCV Logo](https://opencv.org/wp-content/uploads/2021/06/OpenCV_logo_black_.png)
+---
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
