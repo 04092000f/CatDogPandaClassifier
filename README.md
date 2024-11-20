@@ -34,6 +34,10 @@ The dataset, obtained from [Kaggle](https://www.kaggle.com/ashishsaxena2209/anim
 - **3000 images** (1000 per class: Panda, Cat, Dog).
 - Images resized to **224x224** for consistency.
 - Data split into **80% training** and **20% validation**.
+- Some data samples are visualized below<br>
+     ![cat](visuals/cat.png)
+     ![dog](visuals/dog.png)
+     ![panda](visuals/panda.png)
 
 #### Preprocessing and Augmentation
 To enhance generalization, the following augmentations were applied:
