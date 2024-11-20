@@ -35,9 +35,9 @@ The dataset, obtained from [Kaggle](https://www.kaggle.com/ashishsaxena2209/anim
 - Images resized to **224x224** for consistency.
 - Data split into **80% training** and **20% validation**.
 - Some data samples are visualized below<br>
-     ![cat](visuals/cat.png)
-     ![dog](visuals/dog.png)
-     ![panda](visuals/panda.png)
+     ![cat](visuals/cat.png)<br>
+     ![dog](visuals/dog.png)<br>
+     ![panda](visuals/panda.png)<br>
 
 #### Preprocessing and Augmentation
 To enhance generalization, the following augmentations were applied:
