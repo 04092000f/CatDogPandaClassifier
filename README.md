@@ -3,10 +3,10 @@
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
-2. [Dataset](#3-dataset)
-3. [Model Architecture](#4-model-architecture)
-4. [Training Pipeline](#5-training-pipeline)
-5. [Results and Performance Metrics](#6-results-and-performance-metrics)
+2. [Dataset](#2-dataset)
+3. [Model Architecture](#3-model-architecture)
+4. [Training Pipeline](#4-training-pipeline)
+5. [Results and Performance Metrics](#5-results-and-performance-metrics)
 
 
 ---
