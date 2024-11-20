@@ -7,6 +7,7 @@
 3. [Model Architecture](#3-model-architecture)
 4. [Training Pipeline](#4-training-pipeline)
 5. [Results and Performance Metrics](#5-results-and-performance-metrics)
+6. [Model Inference](#6-model-inference)
 
 
 ---
@@ -83,7 +84,8 @@ The confusion matrix of the classification model is given below.
 
 ![Confusion Matrix](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/confusion_matrix.png)
 
-#### Sample Predictions
+
+### 6. Model Inference
 Here are some predictions made by the model:
 
 ![Sample Predictions](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/sample_predictions.png)
