@@ -3,28 +3,23 @@
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
-2. [Purpose](#2-purpose)
-3. [Dataset](#3-dataset)
-4. [Model Architecture](#4-model-architecture)
-5. [Training Pipeline](#5-training-pipeline)
-6. [Results and Performance Metrics](#6-results-and-performance-metrics)
+2. [Dataset](#3-dataset)
+3. [Model Architecture](#4-model-architecture)
+4. [Training Pipeline](#5-training-pipeline)
+5. [Results and Performance Metrics](#6-results-and-performance-metrics)
 
 
 ---
 
 ### 1. Introduction
 
-This project implements a **3-class image classifier** using a **Convolutional Neural Network (CNN)**. The goal was to classify images of **pandas**, **cats**, and **dogs**. The dataset consists of **3000 images** (1000 per class) and was split into an **80:20 ratio** for training and validation. The target validation accuracy was set at **85%**, and the final model achieved an accuracy of **91.33%**.
+- This project implements a **multi-class image classifier** using a **Convolutional Neural Network (CNN)**. The goal was to classify images of **pandas**, **cats**, and **dogs**. The dataset consists of **3000 images** (1000 per class) and was split into an **80:20 ratio** for training and validation. The final trained model achieved an accuracy of **91.33%**.
 
----
-
-### 2. Purpose
-
-The project serves a dual purpose:
+- The project had the following purpose:
 1. **Building and Training a Neural Network from Scratch**  
    The project involves designing a CNN architecture, training it on real-world data, and analyzing its results.
 2. **Reinforcing a Complete Training Pipeline**  
-   The project follows a robust training pipeline inspired by OpenCV University, addressing common errors such as:
+   The project follows a robust training pipeline, addressing common errors such as:
    - Input/output shape mismatches.
    - Loss function and optimizer compatibility.
    - Image transformation issues.
@@ -32,7 +27,7 @@ The project serves a dual purpose:
 
 ---
 
-### 3. Dataset
+### 2. Dataset
 
 The dataset, obtained from [Kaggle](https://www.kaggle.com/ashishsaxena2209/animal-image-datasetdog-cat-and-panda), consists of:
 - **3000 images** (1000 per class: Panda, Cat, Dog).
@@ -40,7 +35,7 @@ The dataset, obtained from [Kaggle](https://www.kaggle.com/ashishsaxena2209/anim
 - Data split into **80% training** and **20% validation**.
 
 #### Preprocessing and Augmentation
-To enhance generalization, the following techniques were applied:
+To enhance generalization, the following augmentations were applied:
 - Random rotation.
 - Horizontal flipping.
 - Random affine transfromation.
@@ -48,25 +43,19 @@ To enhance generalization, the following techniques were applied:
 
 ---
 
-### 4. Model Architecture
-
-The CNN model comprises:
-1. **Convolutional Layers**: For feature extraction.
-2. **MaxPooling Layers**: To reduce spatial dimensions.
-3. **Dropout Layers**: To prevent overfitting.
-4. **Fully Connected Layers**: For classification.
-
-#### Key Highlights:
-- **Input**: `(Batch Size, 3, 224, 224)`  
-- **Output**: 3 class scores (Panda, Cat, Dog).  
-- **Activation Functions**: ReLU for hidden layers, Softmax for output.  
-- **Regularization**: Dropout and batch normalization.  
+### 3. Model Architecture
 
 For a detailed breakdown of the architecture, refer to [Training_from_scratch.ipynb](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/Training_from_scratch.ipynb).
 
+#### Key Highlights:
+- **Input**: `(Batch Size, 3, 224, 224)`  
+- **Output**: `3-class` scores (Panda, Cat, Dog).  
+- **Activation Functions**: `ReLU` for hidden layers, `Softmax` for output.  
+- **Regularization**: Dropout and batch normalization.  
+
 ---
 
-### 5. Training Pipeline
+### 4. Training Pipeline
 
 The training process involved:
 - Experimentation with:
@@ -85,12 +74,12 @@ Explore the training pipeline in the following notebooks:
 ### 6. Results and Performance Metrics
 
 #### Validation Accuracy
-The final validation accuracy achieved was **91.33%**, surpassing the target of 85%.
+The final validation accuracy achieved was **91.33%**.
 
 ![Accuracy](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/final_result.png)
 
 #### Confusion Matrix
-The confusion matrix indicates strong performance, with minimal misclassifications.
+The confusion matrix of the classification model is given below.
 
 ![Confusion Matrix](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/confusion_matrix.png)
 
