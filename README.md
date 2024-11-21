@@ -76,7 +76,7 @@ Explore the training pipeline in the following notebooks:
 
 ---
 
-### 6. Results and Performance Metrics
+### 5. Results and Performance Metrics
 
 #### Validation Accuracy
 The final validation accuracy achieved was **91.33%**.
@@ -88,6 +88,7 @@ The confusion matrix of the classification model is given below.
 
 ![Confusion Matrix](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/confusion_matrix.png)
 
+---
 
 ### 6. Model Inference
 Here are some predictions made by the model:
