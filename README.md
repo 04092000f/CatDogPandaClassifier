@@ -35,9 +35,12 @@ The dataset, obtained from [Kaggle](https://www.kaggle.com/ashishsaxena2209/anim
 - Images resized to **224x224** for consistency.
 - Data split into **80% training** and **20% validation**.
 - Some data samples are visualized below<br>
-     ![cat](visuals/cat.png)<br>
-     ![dog](visuals/dog.png)<br>
-     ![panda](visuals/panda.png)<br>
+   - For **Cats**:<br>
+     <img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/cat.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/cat1.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/cat2.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/cat3.png' width='200' height='200'><br><br>
+   - For **Dogs**:<br>
+     <img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/dog.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/dog1.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/dog2.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/dog3.png' width='200' height='200'><br><br>
+   - For **Pandas**:<br>
+     <img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/panda.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/panda1.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/panda2.png' width='200' height='200'><img src='https://github.com/04092000f/CatDogPandaClassifier/blob/main/visuals/panda3.png' width='200' height='200'><br><br>
 
 #### Preprocessing and Augmentation
 To enhance generalization, the following augmentations were applied:
