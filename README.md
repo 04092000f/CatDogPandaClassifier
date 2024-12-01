@@ -96,6 +96,6 @@ The confusion matrix of the classification model is given below.
 ### 6. Model Inference
 Here are some predictions made by the model:
 
-![Sample Predictions](https://github.com/04092000f/Image-Classifier-from-Scratch/blob/main/visuals/sample_predictions.png)
+![Sample Predictions](visuals/predictions.png)
 
 ---
